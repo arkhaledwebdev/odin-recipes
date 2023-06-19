@@ -4,10 +4,31 @@ body {
 
 h1 {
     color: #8B0000;
+    text-align: start;
+    margin-left: 16px;
 
 }
 
-ul {
-    font-family: cursive,sans-serif;
-    font-size: 20px;
+.list { 
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.item img {
+    width: 250px;
+    height: 180px;
+}
+
+.item button {
+    margin-top: 8px;
+    background-color: palegreen;
+    font-size: medium;
+    padding: 4px;
 }
